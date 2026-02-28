@@ -3,6 +3,8 @@ import os
 
 merger = PyPDF2.PdfMerger()
 
+
+# need to create a folder named "arquivos" to storage the PDFs
 lista_arquivos = os.listdir("arquivos")
 lista_arquivos.sort()
 print(lista_arquivos)
